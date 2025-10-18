@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: smartgearapp
+    env: dotnet
+    buildCommand: "dotnet publish -c Release -o out"
+    startCommand: "dotnet out/SmartGearApp.dll"
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
