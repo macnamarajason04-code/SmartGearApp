@@ -1,0 +1,22 @@
+@model SmartGearApp.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3 text-center text-primary">Product Details</h2>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <p><strong>Name:</strong> @Model.Name</p>
+            <p><strong>Category:</strong> @Model.Category</p>
+            <p><strong>Price:</strong> R @Model.Price</p>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-controller="Product" asp-action="Index" class="btn btn-secondary">Back to List</a>
+        <a asp-controller="Product" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+    </div>
+</div>

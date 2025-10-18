@@ -1,0 +1,10 @@
+@model SmartGearApp.Models.Product
+
+<h1>Delete Product</h1>
+<p>Are you sure you want to delete <strong>@Model.Name</strong>?</p>
+
+<form asp-action="ConfirmDelete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Delete</button>
+    <a href="/products">Cancel</a>
+</form>
