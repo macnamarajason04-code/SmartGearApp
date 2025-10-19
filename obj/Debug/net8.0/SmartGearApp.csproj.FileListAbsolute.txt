@@ -179,3 +179,4 @@
 /Users/jamacnamara/Documents/SmartGearProjects/SmartGearApp/bin/Debug/net8.0/Microsoft.Extensions.ObjectPool.dll
 /Users/jamacnamara/Documents/SmartGearProjects/SmartGearApp/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/jamacnamara/Documents/SmartGearProjects/SmartGearApp/bin/Debug/net8.0/System.Net.WebSockets.WebSocketProtocol.dll
+/Users/jamacnamara/Documents/SmartGearProjects/SmartGearApp/obj/Debug/net8.0/SmartGearApp.sourcelink.json

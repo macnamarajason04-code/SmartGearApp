@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartGearApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2914c379c86b7298788b1572a1f139de3323c7cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartGearApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartGearApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
